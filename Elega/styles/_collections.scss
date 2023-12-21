@@ -1,0 +1,31 @@
+.collections {
+  display: flex;
+  gap: 48px;
+  justify-content: start;
+  padding: 100px 0;
+  width: 100%;
+  max-width: 1400px;
+  overflow: hidden;
+  // position: relative;
+
+  &__autumn,
+  &__classic,
+  &__profesional,
+  &__summer {
+    img {
+      width: 446px;
+      height: 570px;
+    }
+  }
+  &__arrows {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+
+    &__left,
+    &__right {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

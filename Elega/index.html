@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elega</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="conteiner">
+        <div class="hamburger">
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+          <div class="menu-items">
+            <li><a href="#">Man's</a></li>
+            <li><a href="#">Woman's</a></li>
+            <li><a href="#">Kid's</a></li>
+            <li><a href="#">Winter</a></li>
+            <li><a href="#">Summer</a></li>
+            <li><a href="#">New Collection</a></li>
+          </div>
+        </div>
+
+        <img src="./src/Elega.svg" alt="elega logo" />
+        <div class="conteiner__links">
+          <a href="#">Man's</a>
+          <a href="#">Woman's</a>
+          <a href="#">Kid's</a>
+          <a href="#">Winter</a>
+          <a href="#">Summer</a>
+          <a href="#">New Collection</a>
+        </div>
+        <div class="conteiner__rightSide">
+          <a href="#"
+            ><img
+              class="conteiner__rightSide--fav"
+              src="./src/Heart.svg"
+              alt="favourites"
+              class="favorite"
+          /></a>
+          <a href="#"
+            ><img
+              class="conteiner__rightSide--cart"
+              src="./src/Vector.svg"
+              alt="shoppingcart"
+              class="cart"
+          /></a>
+          <div class="profile">
+            <img
+              src="./src/profile_pic.png"
+              alt="profile pic"
+              class="profile__photo"
+            />
+            <h3>Samantha Johnson</h3>
+            <a href="#">View Profile</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="news align-items-center" aria-label="news">
+      <div class="news__text">
+        <h2>Be exstra</h2>
+        <h1>Modern Clothes</h1>
+        <p>
+          Elevate your style with our latest fashion arrivals, where quality
+          meets trendsetting designs. Discover the perfect outfit for every
+          occasion.
+        </p>
+
+        <div class="news__search">
+          <div class="searchbar">
+            <input
+              class="news__search__input"
+              type="text"
+              name=""
+              placeholder="Search for anything"
+            />
+            <a href="#" class="news__search_icon"
+              ><img src="./src/MagnifyingGlass.svg" /><i>Search</i></a
+            >
+          </div>
+        </div>
+      </div>
+      <img src="./src/girl_blackwhite.jpg" alt="" class="news__photo" />
+      <!-- <div class="news__scroll">
+        <img src="./src/MouseSimple.svg" alt="" />
+        <a href="#">Scroll for me</a>
+      </div> -->
+    </section>
+
+    <section class="collections" aria-label="collections">
+      <div class="collections__summer">
+        <!-- <img src="./src/Colection_summer.png" alt="" /> -->
+        <!-- <h1>Autumn</h1>
+        <p>Collections</p> -->
+      </div>
+      <div class="collections__autumn">
+        <img src="./src/Colection_autumn.png" alt="" />
+        <!-- <h1>Autumn</h1>
+        <p>Collections</p> -->
+      </div>
+      <div class="collections__classic">
+        <img src="./src/Colection_classic.png" alt="" />
+        <!-- <h1>Classic</h1>
+        <p>Collections</p> -->
+      </div>
+      <div class="collections__professional">
+        <img src="./src/Colection_proffesinal.png" alt="" />
+        <!-- <h1>Professional</h1>
+        <p>Collections</p> -->
+      </div>
+      <div class="collections__arrows">
+        <img class="collection__left" src="./src/CaretLeft (1).svg" alt="" />
+        <img class="collection__right" src="./src/CaretRight (1).svg" alt="" />
+      </div>
+    </section>
+
+    <section class="casual" aria-label="casual style">
+      <div class="casual__text">
+        <div class="header">
+          <h1 class="header__main">Casual</h1>
+          <h2 class="header__small">Style</h2>
+        </div>
+        <p class="par">
+          Casual style is all about effortless comfort and laid-back elegance,
+          making it a perennial favorite for fashion-conscious individuals
+          seeking a versatile wardrobe. At our clothes e-shop, we embrace the
+          essence of casual fashion with a collection that combines comfort and
+          contemporary trends, featuring relaxed-fit t-shirts, cozy sweaters,
+          comfortable jeans, and stylish sneakers. Whether you're running
+          errands, meeting friends for a coffee, or lounging at home, our casual
+          clothing selection effortlessly blends comfort and style. Explore our
+          e-shop today for a modern take on casual fashion.
+        </p>
+      </div>
+      <button class="casual__button">MORE</button>
+      <div class="casual__products">
+        <div class="products__block">
+          <img
+            class="photo photo--boots"
+            src="./src/productsboots.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Boots</h2>
+              <h3 class="price">239€</h3>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img class="colors__browm" src="./src/color_brown.svg" alt="" />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block">
+          <img
+            class="photo photo--trousers"
+            src="./src/productstrausers.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Boots</h2>
+              <h3 class="price">250€</h3>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__pink" src="./src/color_pink.svg" alt="" />
+                <img
+                  class="colors__darkpurple"
+                  src="./src/color_darkpurple.svg"
+                  alt=""
+                />
+                <img
+                  class="colors__darkgreen"
+                  src="./src/color_darkgreen.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block">
+          <img
+            class="photo photo--tshirts"
+            src="./src/productstshirts.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">T-Shirts</h2>
+              <div class="prices">
+                <h3 class="price">59€</h3>
+                <h4 class="price--old">108€</h4>
+              </div>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img
+                  class="colors__purple"
+                  src="./src/color_purple.svg"
+                  alt=""
+                />
+                <img
+                  class="colors__yellow"
+                  src="./src/color_yellow.svg"
+                  alt=""
+                />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block products__block--boots">
+          <img
+            class="photo photo--boots"
+            src="./src/productsboots2.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Boots</h2>
+              <div class="prices">
+                <h3 class="price">250€</h3>
+                <h4 class="price--old">500€</h4>
+              </div>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img class="colors__browm" src="./src/color_brown.svg" alt="" />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sales" aria-label="Shopping discount">
+      <div class="aboutSales">
+        <div class="text">
+          <h1>Up To</h1>
+          <h1>70% OFF</h1>
+          <h3>Autumn Offers</h3>
+        </div>
+
+        <img src="./src/ShoppingGirl.png" alt="shopping girl" />
+      </div>
+    </section>
+    <section class="casual prfesional__style" aria-label="profesional style">
+      <div class="casual__text">
+        <div class="header">
+          <h1 class="header__main">Professional</h1>
+          <h2 class="header__small">Style</h2>
+        </div>
+        <p class="par">
+          Professional style embodies sophistication and polish, catering to
+          those who require a refined and put-together appearance for their work
+          or formal occasions. Our e-shop is dedicated to offering a
+          meticulously curated range of professional attire that seamlessly
+          blends professionalism with contemporary fashion trends. Our
+          collection includes tailored suits, crisp dress shirts, elegant
+          blouses, classic skirts, and tasteful accessories to help you make a
+          lasting impression in the workplace and beyond. Whether you're
+          attending meetings, conferences, or important presentations, our
+          professional attire ensures you exude confidence and competence.
+          Elevate your professional style with quality materials and timeless
+          designs from our e-shop, where sophistication meets modernity. Explore
+          our selection today and elevate your wardrobe for the world of
+          business and formal events.
+        </p>
+      </div>
+      <!-- <button class="casual__button">MORE</button> -->
+      <div class="casual__products">
+        <div class="products__block">
+          <img class="photo photo--tie" src="./src/tie.png" alt="bow tie" />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Bow Tie</h2>
+              <div class="prices">
+                <h3 class="price">23€</h3>
+                <h4 class="price--old">40€</h4>
+              </div>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">4.5</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/star_half.svg" alt="" />
+                <h4 class="rate__count">(202)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img class="colors__browm" src="./src/color_brown.svg" alt="" />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+                <img
+                  class="colors__darkpurple"
+                  src="./src/color_darkpurple.svg"
+                  alt=""
+                />
+                <img class="colors__red" src="./src/color_red.svg" alt="" />
+                <img
+                  class="colors__purple"
+                  src="./src/color_purple.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block">
+          <img
+            class="photo photo--shirts"
+            src="./src/woman.png"
+            alt="shirts woman"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Shirts</h2>
+              <h3 class="price">180€</h3>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(150)</h4>
+              </div>
+              <div class="colors">
+                <img
+                  class="colors__lightblue"
+                  src="./src/color_lightblue.svg"
+                  alt=""
+                />
+                <img
+                  class="colors__darkgrey"
+                  src="./src/color_darkgrey.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block">
+          <img
+            class="photo photo--tshirts"
+            src="./src/productstshirts.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Boots</h2>
+              <div class="prices">
+                <h3 class="price">1305€</h3>
+                <h4 class="price--old">1528€</h4>
+              </div>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img
+                  class="colors__purple"
+                  src="./src/color_purple.svg"
+                  alt=""
+                />
+                <img
+                  class="colors__yellow"
+                  src="./src/color_yellow.svg"
+                  alt=""
+                />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products__block products__block--boots">
+          <img
+            class="photo photo--boots"
+            src="./src/productsboots2.jpg"
+            alt="boots"
+          />
+          <div class="about">
+            <div class="info">
+              <h2 class="name">Boots</h2>
+              <div class="prices">
+                <h3 class="price">250€</h3>
+                <h4 class="price--old">500€</h4>
+              </div>
+            </div>
+            <div class="rightSide">
+              <div class="rate">
+                <h4 class="rate__rating">5.0</h4>
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <img class="rate__star" src="./src/Component 1.svg" alt="" />
+                <h4 class="rate__count">(52)</h4>
+              </div>
+              <div class="colors">
+                <img class="colors__black" src="./src/color_black.svg" alt="" />
+                <img class="colors__browm" src="./src/color_brown.svg" alt="" />
+                <img class="colors__milky" src="./src/color_milky.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="sales__boots profesional--style"
+      aria-label="profesional style"
+    >
+      <div class="sales__boots__text">
+        <div class="header">
+          <h1 class="header__main">Stepping Up in Style</h1>
+          <h2 class="header__small">Women's High Heels</h2>
+        </div>
+        <p class="par">
+          Professional style embodies sophistication and polish, catering to
+          those who require a refined and put-together appearance for their work
+          or formal occasions. Our e-shop is dedicated to offering a
+          meticulously curated range of professional attire that seamlessly
+          blends professionalism with contemporary fashion trends. Our
+          collection includes tailored suits, crisp dress shirts, elegant
+          blouses, classic skirts, and tasteful accessories to help you make a
+          lasting impression in the workplace and beyond. Whether you're
+          attending meetings, conferences, or important presentations, our
+          professional attire ensures you exude confidence and competence.
+          Elevate your professional style with quality materials and timeless
+          designs from our e-shop, where sophistication meets modernity. Explore
+          our selection today and elevate your wardrobe for the world of
+          business and formal events.
+        </p>
+        <button>Shop collection</button>
+      </div>
+
+      <img src="./src/new_boots.png" alt="shopping girl" />
+    </section>
+
+    <footer class="footer">
+      <div class="column" aria-label="Menu">
+        <ul class="list">
+          <li class="list__header">Menu</li>
+          <li><a class="list__item" href="#">Home</a></li>
+          <li><a class="list__item" href="#">About us</a></li>
+          <li><a class="list__item" href="#">Career</a></li>
+          <li><a class="list__item" href="#">Investors</a></li>
+          <li><a class="list__item" href="#">News</a></li>
+          <li><a class="list__item" href="#">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="column" aria-label="Account">
+        <ul class="list">
+          <li class="list__header">Account</li>
+          <li><a class="list__item" href="#">Log in</a></li>
+          <li><a class="list__item" href="#">Sing up</a></li>
+          <li><a class="list__item" href="#">Cart</a></li>
+          <li><a class="list__item" href="#">Orders history</a></li>
+          <li><a class="list__item" href="#">Favorites</a></li>
+          <li><a class="list__item" href="#">Discounts</a></li>
+          <li><a class="list__item" href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="column" aria-label="Help">
+        <ul class="list">
+          <li class="list__header">Help</li>
+          <li><a class="list__item" href="#">FAQ</a></li>
+          <li><a class="list__item" href="#">Privacy</a></li>
+          <li><a class="list__item" href="#">Terms & conditions</a></li>
+          <li><a class="list__item" href="#">Shipping Policy</a></li>
+          <li><a class="list__item" href="#">Return Policy</a></li>
+          <li><a class="list__item" href="#">Order</a></li>
+        </ul>
+      </div>
+
+      <div class="column" aria-label="Contact us">
+        <ul class="list">
+          <li class="list__header">Contact us</li>
+          <li class="list__item">info@elega.com</li>
+          <li class="list__item">+37065498329</li>
+          <li class="list__item">(10:30 AM- 7:30 PM)</li>
+          <li class="list__header">Social media</li>
+          <li><a class="list__item" href="#">Facebook</a></li>
+          <li><a class="list__item" href="#">Instagram</a></li>
+          <li><a class="list__item" href="#">Pinterest</a></li>
+          <li><a class="list__item" href="#">Tiktok</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
